@@ -10,13 +10,13 @@ public class bubble_sort {
 
         for (int number: numArray) {
             for (int y = 0; y < numArray.length - 1; y++) {
-                if (numArray[y] > numArray[y+1] - 1) {
+                if (numArray[y] > numArray[y+1]) {
                     numArray[y] = (numArray[y] + numArray[y+1]) - (numArray[y+1] = numArray[y]);
                 }
             }
         }
 
         System.out.println(Arrays.toString(numArray));
-        
+
     }
 }
