@@ -3,6 +3,12 @@ package com.sparta.ac.MergeArrays;
 import java.util.Arrays;
 
 public class MergeArrays {
+    public static void main(String[] args){
+        int[] arrayOne = {1, 5, 17, 22, 39, 98};;
+        int[] arrayTwo = {3, 11, 35, 40, 96};
+
+        System.out.println(Arrays.toString(getMergedArray(null, null)));
+    }
     public static int[] getMergedArray(int[] arrayOne, int[] arrayTwo) {
 
         if (arrayOne != null && arrayTwo != null) {
@@ -38,12 +44,5 @@ public class MergeArrays {
             }
         }
 
-    }
-
-    public static void main(String[] args){
-        int[] arrayOne;
-        int[] arrayTwo;
-
-        System.out.println(Arrays.toString(getMergedArray(null, null)));
     }
 }
