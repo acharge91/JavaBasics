@@ -13,3 +13,8 @@
 
 **BubbleSortTest.java**
 - A test file that checks correct outputs for different array instances, such as negative integers. 
+
+---
+
+**MergeArrays.java**
+- This project is currently unfinished.
