@@ -1,4 +1,4 @@
-# First Java Project
+# Java Basics
 
 **App.java**
 - A simple Java programme with a method *greeting* that returns a greeting message based on the time of day stored in the *timeOfDay* variable.
