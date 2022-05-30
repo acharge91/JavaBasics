@@ -1,4 +1,4 @@
-# First Java Project
+# Java Basics
 
 **App.java**
 - A simple Java programme with a method *greeting* that returns a greeting message based on the time of day stored in the *timeOfDay* variable.
@@ -19,5 +19,5 @@
 **MergeArrays.java**
 - A java programme that contains a method *getMergedArray* which takes 2 sorted integer arrays and returns one sorted array containing all elements of both arrays. The method compares the values at a given index of both arrays and adds the lesser of the two into the merged array. Finally, it adds whatever remains from either array.
 
-**MergeArraysTesty.java**
+**MergeArraysTest.java**
 - A test file that checks correct outputs for various array inputs including arrays with negative integers. It also tests for null inputs.
