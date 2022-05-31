@@ -16,6 +16,15 @@ public class MergeArraysTest {
     }
 
     @Test
+    @DisplayName("Test arrays with 1 element in are merged")
+    void checkOneElementArraysMerged() {
+        int[] testArrayOne = {4};
+        int[] testArrayTwo = {2};
+        int[] expectedArray = {2, 4};
+        Assertions.assertArrayEquals(expectedArray, MergeArrays.getMergedArray(testArrayOne, testArrayTwo));
+    }
+
+    @Test
     @DisplayName("Test larger array is merged")
     void checkLargerArrayIsMerged() {
         int[] testArrayOne = {1, 5, 17, 22, 39, 98};
