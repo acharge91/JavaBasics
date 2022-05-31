@@ -33,16 +33,12 @@ public class MergeArrays {
                 mergedArray[indexCount++] = arrayTwo[array2Counter++];
             }
             return mergedArray;
-        } else {
-            if (arrayOne == null && arrayTwo == null) {
-                int[] emptyArray = {};
-                return emptyArray;
-            } else if (arrayOne == null) {
+        } else if (arrayOne == null && arrayTwo == null) {
+            return new int[]{};
+        } else if (arrayOne == null) {
                 return arrayTwo;
-            } else {
+        } else {
                 return arrayOne;
-            }
         }
-
     }
 }
